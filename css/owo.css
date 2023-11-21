@@ -1,0 +1,35 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 88, 178);
+}
+.card{
+    padding: 1rem;
+}
+.card p{
+    text-align: justify;
+    
+}
+.card p::first-letter{
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(233, 80%, 55%);
+    font-style: italic;
+}
+.card h3{
+    font-variant: small-caps;
+}
+.card a{
+    display: inline-block;
+    width: 6rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(255, 127, 195);
+    padding: .3rem 1rem;
+}
